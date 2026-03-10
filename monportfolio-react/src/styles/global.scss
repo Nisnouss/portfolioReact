@@ -1,0 +1,61 @@
+@import './variables';
+
+body{
+    background-color: $background_color;
+    margin: 0;
+    font-style: $font_style;
+}
+
+h2, h1, .header a{
+    color: $text-main;
+    font-style: $font_style;
+}
+
+a{
+    text-decoration: none;
+    color: $text-main;
+    font-style: $font_style;
+}
+
+a:hover{
+    font-size: 18px;
+    transition: all 0.3 ease-in-out;
+}
+
+main div, main .Formations .formarticle, footer{
+    border: 1px;
+    border-radius: 14px;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 1200px;
+    font-style: $font_style;
+}
+
+main .presentation:hover, main .langages-informatiques:hover, footer:hover{
+    background-color: $navy-light;
+    transition: all 0.3s ease-in-out;
+}
+
+.Formations .formarticle:hover{
+    width: 360px;
+    height: 300px;
+    transition: all 0.3s ease-in-out;
+}
+
+main p, ul li{
+    color: $title-color;
+    font-size: 16px;
+    font-style: $font_style;
+} 
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+footer{
+    color: $title-color;
+    align-items: center;
+    text-align: center;
+    font-style: $font_style;
+}
