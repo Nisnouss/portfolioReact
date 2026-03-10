@@ -19,7 +19,7 @@ const Home = () =>{
             <div className="langages-informatiques">
                 <h2>Mes langages informatiques</h2>
                 <div className="icons">
-                    <img src="https://skillicons.dev/icons?i=html,css,py,php,js,nodejs,wordpress,react)(https://skillicons.dev)" alt="icones" className="imgicones" />
+                    <img src="https://skillicons.dev/icons?i=html,css,py,php,js,nodejs,wordpress,react" alt="icones" className="imgicones" />
                 </div>
             </div>
             <div className="Formations">
