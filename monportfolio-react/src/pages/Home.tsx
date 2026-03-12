@@ -26,7 +26,6 @@ const Home = () =>{
                 <article className="formarticle">
                     <h2>Mes Formations</h2>
                     <br />
-                    <br />
                     <ul>
                         <li><span>2025 - 2026</span> Formation langage informatique à la carte</li>
                         <p>La Plateforme, Brignoles</p>
@@ -41,7 +40,6 @@ const Home = () =>{
                 <article className="formarticle">
                     <h2>Mes expériences professionnelles</h2>
                     <br />
-                    <br />
                     <ul>
                         <li><span>Avril 2025 - Août 2025</span> Agent de tri</li>
                         <p>Colissimo, Les Arcs (83)</p>
@@ -55,7 +53,6 @@ const Home = () =>{
                 </article>
                 <article className="formarticle">
                     <h2>Compétences acquises</h2>
-                    <br />
                     <br />
                     <ul>
                         <li>Maîtrise des bases de divers langages de programmation</li>
