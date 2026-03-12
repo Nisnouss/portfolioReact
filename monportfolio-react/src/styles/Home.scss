@@ -31,6 +31,10 @@ header:hover{
     height: 100px;
 }
 
+.langages-informatiques .icons{
+    text-align-last: center;
+}
+
 .Formations{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -42,7 +46,7 @@ header:hover{
     width: 340px;
     max-width: 1200px;
     border: 1px solid $navy-light;
-    box-shadow: inset 0 -3px 0 0 #f06292;
+    box-shadow: inset 0 -3px 0 0 $border;
     border-radius: 14px;
 }
 

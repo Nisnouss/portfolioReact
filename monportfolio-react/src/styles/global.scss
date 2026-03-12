@@ -42,7 +42,7 @@ main .presentation:hover, main .langages-informatiques:hover, footer:hover{
     transition: all 0.3s ease-in-out;
 }
 
-main p, ul li{
+main p, main ul{
     color: $title-color;
     font-size: 16px;
     font-style: $font_style;

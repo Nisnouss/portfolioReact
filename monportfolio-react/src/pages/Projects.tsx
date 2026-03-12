@@ -7,7 +7,8 @@ import {Link} from 'react-router-dom';
 type Project={
     id: number;
     title: string;
-    description: string
+    description: string;
+    link: string
 }
 
 const Projects = () =>{
@@ -42,6 +43,7 @@ return(
                     key={project.id}
                     title={project.title}
                     description={project.description}
+                    link={project.link}
                     />
                 ))
             ) : (
