@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ProjectCard from '../components/ProjectCard';
+import Footer from "../components/Footer.tsx";
 import data from '../data/projects.json';
 import '../styles/Projects.scss';
 import {Link} from 'react-router-dom';
@@ -25,7 +26,7 @@ const Projects = () =>{
 
 return(
     <section>
-        <Link to="/"> Retour à l'accueil</Link>
+        <Link to="/" id="return"> Retour à l'accueil</Link>
         <div className="search">
             <h2>Mes Projets</h2>
             <input
@@ -50,6 +51,7 @@ return(
                 <p>Aucun projet ne correspond à votre recherche</p>
             )}
         </div>
+        <Footer />
     </section>
 )
 }

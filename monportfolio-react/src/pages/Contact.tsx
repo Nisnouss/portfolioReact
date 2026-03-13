@@ -1,5 +1,6 @@
 import '../styles/Contact.scss';
 import {Link} from 'react-router-dom';
+import Footer from "../components/Footer.tsx";
 
 const Contact = () =>{
     return(
@@ -12,6 +13,7 @@ const Contact = () =>{
                     Téléphone: <a href="0600000000">0600000000</a></p>
                 </div>
             </div>
+            <Footer />
         </section>
     )
 }

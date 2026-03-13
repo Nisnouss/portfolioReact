@@ -42,3 +42,50 @@ h3{
     font-family: $bigtitlefont;
     font-weight: 700;
 }
+
+@media(max-width: 1024px){
+    .search{
+        justify-content: right;
+    }
+}
+
+@media(max-width: 768px){
+    .search{
+        display: grid;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .search h2{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #return{
+        display: none;
+    }
+
+    .project-list{
+        display: inline;
+    }
+
+    .project-list .project-card{
+        margin-bottom: 20px;
+    }
+
+    .project-list .project-card h3{
+        font-size: 18px;
+    }
+
+    .project-list .project-card p{
+        font-size: 14px;
+    }
+
+    a{
+        font-size: 14px;
+    }
+
+    Footer{
+        font-size: 14px;
+    }
+}
