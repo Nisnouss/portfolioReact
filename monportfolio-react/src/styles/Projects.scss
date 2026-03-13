@@ -1,47 +1,80 @@
 @import './global.scss';
 
-.project-list{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    color: $text-main;
-    gap: 20px;
-    padding: 20px;
-    &>*{
-        border: 1px solid $navy-light;
-        border-radius: 20px;
-        padding: 15px;
-        background-color: $navy-light;
+#section__projects{
+    .project-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        color: $text-main;
+        gap: 20px;
+        padding: 20px;
+        &>*{
+            border: 1px solid $navy-light;
+            border-radius: 20px;
+            padding: 15px;
+            background-color: $navy-light;
+        }
+        &>*:hover{
+            padding: 25px;
+            transition: all 0.3s ease-in-out;
+        }
     }
-    &>*:hover{
-        padding: 25px;
+
+    #return{
+        border: 1px solid $text-main;
+        border-radius: 13px;
+        background-color: $text-main;
+        padding: 15px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+        color: $pink;
+    }
+    
+    #return:hover{
+        background-color: $title_color;
+        transition: all 0.3s ease-in-out;
+    }
+
+    input{
+        border: 1px solid $navy-light;
+        background-color: $navy-light;
+        border-radius: 23px;
+        padding: 10px;
+    }
+    
+    .search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    #linkgit{
+        cursor: pointer;
+        font-style: italic;
+    }
+    
+    h3{
+        font-family: $bigtitlefont;
+        font-weight: 700;
+        margin-bottom: 7px;
+    }
+    
+    #pproject{
+        margin-bottom: 10px;
+    }
+
+    a{
+        color: $pink;
+    }
+
+    a:hover{
+        color: $title_color;
         transition: all 0.3s ease-in-out;
     }
 }
 
-input{
-    border: 1px solid $navy-light;
-    background-color: $navy-light;
-    border-radius: 23px;
-    padding: 10px;
-}
-
-.search{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-}
-
-#linkgit{
-    cursor: pointer;
-    font-style: italic;
-}
-
-h3{
-    font-family: $bigtitlefont;
-    font-weight: 700;
-}
 
 @media(max-width: 1024px){
     .search{
@@ -50,42 +83,48 @@ h3{
 }
 
 @media(max-width: 768px){
-    .search{
-        display: grid;
-        justify-content: center;
-        gap: 5px;
-    }
+    #section__projects{
+        .search{
+            display: grid;
+            justify-content: center;
+            gap: 5px;
+        }
+    
+        .search h2{
+            font-size: 16px;
+            text-align: center;
+        }
+    
+        #return{
+            display: none;
+        }
+    
+        .project-list{
+            display: inline;
+        }
+    
+        .project-list .project-card{
+            margin-bottom: 20px;
+        }
+    
+        .project-list .project-card h3{
+            font-size: 18px;
+        }
+    
+        .project-list .project-card p{
+            font-size: 14px;
+        }
 
-    .search h2{
-        font-size: 16px;
-        text-align: center;
-    }
-
-    #return{
-        display: none;
-    }
-
-    .project-list{
-        display: inline;
-    }
-
-    .project-list .project-card{
-        margin-bottom: 20px;
-    }
-
-    .project-list .project-card h3{
-        font-size: 18px;
-    }
-
-    .project-list .project-card p{
-        font-size: 14px;
-    }
-
-    a{
-        font-size: 14px;
-    }
-
-    Footer{
-        font-size: 14px;
+        &>*{
+            padding: 10px;
+        }
+    
+        a{
+            font-size: 14px;
+        }
+    
+        Footer{
+            font-size: 14px;
+        }
     }
 }

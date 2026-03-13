@@ -10,7 +10,7 @@ type ProjectCardProps ={
 const ProjectCard: React.FC<ProjectCardProps> = ({title, description, link, link2})=>(
     <div className="project-card">
         <h3>{title}</h3>
-        <p>{description}</p>
+        <p id="pproject">{description}</p>
         <a id="linkgit" target="_blank" href={link}>Lien vers un premier projet <FaExternalLinkAlt /></a>
         <br />
         <a id="linkgit" target="_blank" href={link2}>Lien vers un second projet <FaExternalLinkAlt /></a>

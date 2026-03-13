@@ -24,7 +24,6 @@ h2, main h1{
     color: $text-main;
 } 
 
-
 a{
     text-decoration: none;
     color: $text-main;
@@ -35,6 +34,10 @@ a{
     }
 }
 
+#sectionHome .presentation:hover{
+    background-color: $navy-light;
+    transition: all 0.3s ease-in-out;
+}
 
 main div, main .Formations .formarticle, footer{
     border: 1px;
@@ -43,14 +46,14 @@ main div, main .Formations .formarticle, footer{
     margin: 20px auto;
     max-width: 1200px;
     font-family: $font_style;
-    main .presentation:hover, main .langages-informatiques:hover, footer:hover{
-        background-color: $navy-light;
-        transition: all 0.3s ease-in-out;
-    }
 }
 
+#sectionHome  main .presentation:hover, main .langages-informatiques:hover, footer:hover{
+    background-color: $navy-light;
+    transition: all 0.3s ease-in-out;
+}
 
-.Formations .formarticle:hover{
+#sectionHome .Formations .formarticle:hover{
     width: 360px;
     height: 330px;
     transition: all 0.3s ease-in-out;
@@ -97,17 +100,18 @@ footer{
         margin-top: 10px;
         background-color: $text-main;
         border-radius: 13px;
-        padding-right: 10px;
+        padding-right: 15px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
 
-    .Formations{
-        display: inline;
+    
+    a{
+        color: $pink;
     }
 }
 
-@media(max-width: 768px){
+@media(hover: hover) and (max-width: 768px){
     header{
         display: inline;
         text-align: center;
@@ -115,39 +119,47 @@ footer{
     
     header h1{
         font-size: 16px;
+        margin-bottom: 10px;
     }
-
+    
     #navdiv{
         justify-items: center;
     }
-
+    
     main h2{
         font-size: 14px;
     }
-
+    
     main p{
         font-size: 12px;
     }
-
-    .langages-informatiques .icons{
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        font-size: 25px;
-    }
-
+    
     .Formations .formarticle h2, .Formations .formarticle span{
         font-size: 12px;
     }
-
+    
     .Formations .formarticle{
         width: 200px;
     }
-
+    
     .Formations .formarticle ul li{
         font-size: 12px;
     }
-
-    .desc{
+    
+    #sectionHome .Formations .formarticle .desc{
         font-size: 10px;
+    }
+
+    #sectionHome .langages-informatiques .icons{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    #sectionHome .Formations{
+        display: inline;
+    }
+    
+    #sectionHome .Formations .formarticle{
+        width: 250px;
     }
 }

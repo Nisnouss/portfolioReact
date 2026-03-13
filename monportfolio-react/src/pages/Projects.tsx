@@ -26,7 +26,7 @@ const Projects = () =>{
 );
 
 return(
-    <section>
+    <section id="section__projects">
         <Link to="/" id="return"> Retour à l'accueil</Link>
         <div className="search">
             <h2>Mes Projets</h2>
