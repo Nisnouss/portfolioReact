@@ -45,7 +45,7 @@
         "id": 7,
         "title": "Projets React",
         "description": "Quelques projets React que j'ai réalisé au cours de ma formation Langage Informatique à la carte :",
-        "link": "/projects",
+        "link": "https://github.com/Nisnouss/portfolioReact.git",
         "link2": "/projects"
     }
 ]
