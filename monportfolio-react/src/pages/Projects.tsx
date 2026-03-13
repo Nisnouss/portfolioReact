@@ -30,7 +30,7 @@ return(
             <h2>Mes Projets</h2>
             <input
             type="text"
-            placeholder="Rechercher une catégorie"
+            placeholder="Rechercher un projet..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             />

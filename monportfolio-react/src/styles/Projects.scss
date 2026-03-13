@@ -33,6 +33,12 @@ input{
     gap: 40px;
 }
 
-a{
+#linkgit{
     cursor: pointer;
+    font-style: italic;
+}
+
+h3{
+    font-family: $bigtitlefont;
+    font-weight: 700;
 }

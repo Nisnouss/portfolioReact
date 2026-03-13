@@ -6,7 +6,17 @@ body{
     font-family: $font_style;
 }
 
-h2, h1, .header a{
+header h1{
+    font-family: $bigtitlefont;
+    color: $pink;
+}
+
+h2, main h1{
+    font-family: $bigtitlefont;
+    color: $text-main;
+} 
+
+.header a{
     color: $text-main;
     font-family: $font_style;
 }
@@ -58,4 +68,63 @@ footer{
     align-items: center;
     text-align: center;
     font-family: $font_style;
+}
+
+#burger-menu{
+    display: none;
+}
+
+@media(max-width: 1024px){
+    .header{
+        display: none;
+    }
+
+    #burger-menu{
+        display: block;
+    }
+
+    .Formations{
+        display: inline;
+    }
+}
+
+@media(max-width: 768px){
+    header{
+        display: inline;
+        text-align: center;
+    }
+
+    header h1{
+        font-size: 16px;
+    }
+
+    #navdiv{
+        justify-items: center;
+    }
+
+    main h2{
+        font-size: 14px;
+    }
+
+    main p{
+        font-size: 12px;
+    }
+
+    .langages-informatiques .icons{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        font-size: 25px;
+    }
+
+    .Formations .formarticle h2, .Formations .formarticle span{
+        font-size: 12px;
+    }
+
+    .Formations .formarticle{
+        width: 200px;
+    }
+
+    .Formations .formarticle ul li{
+        font-size: 12px;
+    }
 }

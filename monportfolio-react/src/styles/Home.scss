@@ -26,13 +26,12 @@ header:hover{
     text-align: justify;
 }
 
-.langages-informatiques .icons .imgicones{
-    width: 1000px;
-    height: 100px;
-}
-
 .langages-informatiques .icons{
-    text-align-last: center;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    font-size: 40px;
+    color: #5E4B3C;
+    align-items: center;
 }
 
 .Formations{

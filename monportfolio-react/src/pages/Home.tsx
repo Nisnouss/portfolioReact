@@ -1,12 +1,17 @@
 import Header from "../components/Header.tsx";
 import Footer from "../components/Footer.tsx";
 import '../styles/Home.scss';
+import { FaHtml5, FaCss3Alt, FaPython, FaPhp, FaNodeJs, FaWordpress, FaReact } from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
+import { BsJavascript } from "react-icons/bs";
+import { SiMongodb } from "react-icons/si";
 
 const Home = () =>{
     return(
         <>
         <header>
             <h1>Portfolio - Nisrine BOUTAHAR</h1>
+            
             <Header />
         </header>
 
@@ -19,7 +24,16 @@ const Home = () =>{
             <div className="langages-informatiques">
                 <h2>Mes langages informatiques</h2>
                 <div className="icons">
-                    <img src="https://skillicons.dev/icons?i=html,css,py,php,mysql,js,nodejs,mongodb,wordpress,react&theme=light" alt="icones" className="imgicones" />
+                    <article><FaHtml5 /></article>
+                    <article><FaCss3Alt /></article>
+                    <article><FaPython /></article>
+                    <article><FaPhp /></article>
+                    <article><GrMysql /></article>
+                    <article><BsJavascript /></article>
+                    <article><FaNodeJs /></article>
+                    <article><SiMongodb /></article>
+                    <article><FaWordpress /></article>
+                    <article><FaReact /></article>
                 </div>
             </div>
             <div className="Formations">

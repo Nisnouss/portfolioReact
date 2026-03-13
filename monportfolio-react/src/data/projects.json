@@ -2,43 +2,43 @@
     {
         "id": 1,
         "title": "Projets HTML et CSS",
-        "description": "Les projets HTML et CSS que j'ai rélisé au cours de ma formation Langage Informatique à la carte depot git",
+        "description": "Quelques projets HTML et CSS que j'ai réalisé au cours de ma formation Langage Informatique à la carte depot git",
         "link": "https://github.com/Nisnouss/Fonciere.git"
     },
     {
         "id": 2,
         "title": "Projets Python et Tkinter",
-        "description": "Les projets Python et Tkinter que j'ai rélisé au cours de ma formation Langage Informatique à la carte",
+        "description": "Quelques projets Python et Tkinter que j'ai réalisé au cours de ma formation Langage Informatique à la carte",
         "link": "https://github.com/Nisnouss/Pokedexpython.git"
     },
     {
         "id": 3,
         "title": "Projets PHP",
-        "description": "Les projets PHP que j'ai rélisé au cours de ma formation Langage Informatique à la carte",
+        "description": "Quelques projets PHP que j'ai réalisé au cours de ma formation Langage Informatique à la carte",
         "link": "https://github.com/Nisnouss/projetPHP.git"
     },
     {
         "id": 4,
         "title": "Projets Javascript",
-        "description": "Les projets Javascript que j'ai rélisé au cours de ma formation Langage Informatique à la carte",
+        "description": "Quelques projets Javascript que j'ai réalisé au cours de ma formation Langage Informatique à la carte",
         "link": "https://github.com/Nisnouss/evalJS.git"
     },
     {
         "id": 5,
         "title": "Projets Node.js",
-        "description": "Les projets HTML et CSS que j'ai rélisé au cours de ma formation Langage Informatique à la carte",
+        "description": "Quelques projets HTML et CSS que j'ai réalisé au cours de ma formation Langage Informatique à la carte",
         "link": "https://github.com/Nisnouss/backjs.git"
     },
     {
         "id": 6,
         "title": "Projets CMS Wordpress",
-        "description": "Les projets CMS Wordpress que j'ai rélisé au cours de ma formation Langage Informatique à la carte",
+        "description": "Quelques projets CMS Wordpress que j'ai réalisé au cours de ma formation Langage Informatique à la carte",
         "link": "/"
     },
     {
         "id": 7,
         "title": "Projets React",
-        "description": "Les projets React que j'ai rélisé au cours de ma formation Langage Informatique à la carte",
+        "description": "Quelques projets React que j'ai réalisé au cours de ma formation Langage Informatique à la carte",
         "link": "/"
     }
 ]
