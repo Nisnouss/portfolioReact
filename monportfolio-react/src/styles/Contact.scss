@@ -62,3 +62,18 @@ section>a{
 section{
     margin: 20px 10px;
 }
+
+@media (max-width: 768px){
+    h1{
+        font-size: 16px;
+    }
+
+    p, a{
+        font-size: 14px;
+    }
+
+    .contact-container{
+        padding: 10px;
+        max-width: 250px;
+    }
+}
