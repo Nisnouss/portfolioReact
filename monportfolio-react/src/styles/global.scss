@@ -9,6 +9,10 @@ body{
 header h1{
     font-family: $bigtitlefont;
     color: $pink;
+    .header a{
+        color: $text-main;
+        font-family: $font_style;
+    }
 }
 
 h2, main h1{
@@ -16,21 +20,17 @@ h2, main h1{
     color: $text-main;
 } 
 
-.header a{
-    color: $text-main;
-    font-family: $font_style;
-}
 
 a{
     text-decoration: none;
     color: $text-main;
     font-family: $font_style;
+    a:hover{
+        font-size: 18px;
+        transition: all 0.3 ease-in-out;
+    }
 }
 
-a:hover{
-    font-size: 18px;
-    transition: all 0.3 ease-in-out;
-}
 
 main div, main .Formations .formarticle, footer{
     border: 1px;
@@ -39,12 +39,12 @@ main div, main .Formations .formarticle, footer{
     margin: 20px auto;
     max-width: 1200px;
     font-family: $font_style;
+    main .presentation:hover, main .langages-informatiques:hover, footer:hover{
+        background-color: $navy-light;
+        transition: all 0.3s ease-in-out;
+    }
 }
 
-main .presentation:hover, main .langages-informatiques:hover, footer:hover{
-    background-color: $navy-light;
-    transition: all 0.3s ease-in-out;
-}
 
 .Formations .formarticle:hover{
     width: 360px;
@@ -68,19 +68,30 @@ footer{
     align-items: center;
     text-align: center;
     font-family: $font_style;
-}
-
-#burger-menu{
-    display: none;
-}
-
-@media(max-width: 1024px){
-    .header{
+    #burger-menu{
         display: none;
     }
+}
 
-    #burger-menu{
-        display: block;
+
+@media(max-width: 1024px){
+    .header {
+        display: none;
+        flex-direction: column;
+    }
+
+    #navdiv{
+        align-items: center;
+    }
+
+    .header.show {
+        display: flex;
+        margin-top: 10px;
+        background-color: $text-main;
+        border-radius: 13px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .Formations{
@@ -93,7 +104,7 @@ footer{
         display: inline;
         text-align: center;
     }
-
+    
     header h1{
         font-size: 16px;
     }

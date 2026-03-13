@@ -9,7 +9,8 @@ type Project={
     id: number;
     title: string;
     description: string;
-    link: string
+    link: string;
+    link2: string
 }
 
 const Projects = () =>{
@@ -45,6 +46,7 @@ return(
                     title={project.title}
                     description={project.description}
                     link={project.link}
+                    link2={project.link2}
                     />
                 ))
             ) : (

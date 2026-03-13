@@ -2,43 +2,50 @@
     {
         "id": 1,
         "title": "Projets HTML et CSS",
-        "description": "Quelques projets HTML et CSS que j'ai réalisé au cours de ma formation Langage Informatique à la carte",
-        "link": "https://github.com/Nisnouss/Fonciere.git"
+        "description": "Quelques projets HTML et CSS que j'ai réalisé au cours de ma formation Langage Informatique à la carte :",
+        "link": "https://github.com/Nisnouss/Fonciere.git",
+        "link2": "/"
     },
     {
         "id": 2,
         "title": "Projets Python et Tkinter",
-        "description": "Quelques projets Python et Tkinter que j'ai réalisé au cours de ma formation Langage Informatique à la carte",
-        "link": "https://github.com/Nisnouss/Pokedexpython.git"
+        "description": "Quelques projets Python et Tkinter que j'ai réalisé au cours de ma formation Langage Informatique à la carte :",
+        "link": "https://github.com/Nisnouss/Pokedexpython.git",
+        "link2": "/"
     },
     {
         "id": 3,
         "title": "Projets PHP",
-        "description": "Quelques projets PHP que j'ai réalisé au cours de ma formation Langage Informatique à la carte",
-        "link": "https://github.com/Nisnouss/projetPHP.git"
+        "description": "Quelques projets PHP que j'ai réalisé au cours de ma formation Langage Informatique à la carte :",
+        "link": "https://github.com/Nisnouss/projetPHP.git",
+        "link2": "/"
     },
     {
         "id": 4,
         "title": "Projets Javascript",
-        "description": "Quelques projets Javascript que j'ai réalisé au cours de ma formation Langage Informatique à la carte",
-        "link": "https://github.com/Nisnouss/evalJS.git"
+        "description": "Quelques projets Javascript que j'ai réalisé au cours de ma formation Langage Informatique à la carte :",
+        "link": "https://github.com/Nisnouss/evalJS.git",
+        "link2": "/"
     },
     {
         "id": 5,
         "title": "Projets Node.js",
-        "description": "Quelques projets HTML et CSS que j'ai réalisé au cours de ma formation Langage Informatique à la carte",
-        "link": "https://github.com/Nisnouss/backjs.git"
+        "description": "Quelques projets HTML et CSS que j'ai réalisé au cours de ma formation Langage Informatique à la carte :",
+        "link": "https://github.com/Nisnouss/backjs.git",
+        "link2": "/"
     },
     {
         "id": 6,
         "title": "Projets CMS Wordpress",
-        "description": "Quelques projets CMS Wordpress que j'ai réalisé au cours de ma formation Langage Informatique à la carte",
-        "link": "/"
+        "description": "Quelques projets CMS Wordpress que j'ai réalisé au cours de ma formation Langage Informatique à la carte :",
+        "link": "/",
+        "link2": "/"
     },
     {
         "id": 7,
         "title": "Projets React",
-        "description": "Quelques projets React que j'ai réalisé au cours de ma formation Langage Informatique à la carte",
-        "link": "/"
+        "description": "Quelques projets React que j'ai réalisé au cours de ma formation Langage Informatique à la carte :",
+        "link": "/",
+        "link2": "/"
     }
 ]
